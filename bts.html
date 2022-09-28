@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bts.css">
+    <script src="bts.js"></script>
+    <title>Baker Training Services</title>
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.jpg" alt="BTS logo">
+        <div class="headerOptions">
+            <div class="contact">
+                <button onclick="myFunction()" class="dropdownBtn" type="button" id="contactBtn">Contact us  🡫 </button>
+                <div class="dropdownMenu" id="contactMenu">
+                    <p><a href="https://www.facebook.com/bakertrainingservices/">Facebook</a></p>
+                    <p>bakertservices@yahoo.com</p>
+                    <p>07966 187580</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <img src="images/firstaidkit.jpg" alt="First aid kit">
+        <div class="first">
+            <p class="section2Head">First-Aid</p>
+            <p class="section2Content">We offer six different first-aid courses, two of which can be done as shorter refresher sessions.</p>
+        </div>
+        <div class="fire">
+            <p class="section2Head">Fire Safety</p>
+            <p class="section2Content">The 3 courses we offer are delivered by a former station officer, with over 30 years of experience in the London Fire Brigade.</p>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="topicHead">First-aid Courses:</div>
+        <div class="allCourses">
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img id="TLI" src="images/paediatric1.jpg" alt="Injured child">
+                </div>
+                <div class="courseInfo" id="TLT">
+                    <div class="courseTitle">
+                        <p>Paediatrics First-Aid</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 3 day full course or 2 day refresher.<button class="dropdownBtn courseBtn" type="button" onclick="moreInfoFunction">▼</button></p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>Ofsted approved course that covers the roles and responsibilities of an emergency paediatric first-aider. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds, shock, and more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img src="images/atwork.jpg" alt="Applying bandage to colleague">
+                </div>
+                <div class="courseInfo" id="TMT">
+                    <div class="courseTitle">
+                        <p>First-Aid at Work</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 3 day full course or 2 day refresher. <button class="dropdownBtn courseBtn" type="button">▼</button></p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>This course will instruct you on how to deal with an injured adult in the workplace. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds, shock, and more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img id="TRI" src="images/mentalhealth.jpg" alt="Consoling upset friend">
+                </div>
+                <div class="courseInfo" id="TRT">
+                    <div class="courseTitle">
+                        <p>Mental Health First-Aid</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 1 day full course or 4 hour half day. <button class="dropdownBtn courseBtn" type="button">▼</button></p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>To recognise and respond to the signs and symtoms of mental ill health. Includes:
+                            <ul>
+                                <li>Depression</li>
+                                <li>Substance abuse</li>
+                                <li>Early signs of mental ill health</li>
+                                <li>And more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img src="images/paediatric2.jpg" alt="Injured child">
+                </div>
+                <div class="courseInfo" id="BLT">
+                    <div class="courseTitle">
+                        <p>Emergency Paediatrics First-Aid</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 1 day course. <button class="dropdownBtn courseBtn" type="button">▼</button></p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>Ofsted approved course that covers the roles and responsibilities of an emergency paediatric first-aider. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds and shock</li>
+                                <li>And more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img src="images/emergencyatwork.jpg" alt="Injured Builder Co-worker">
+                </div>
+                <div class="courseInfo">
+                    <div class="courseTitle">
+                        <p>Emergency First-Aid at Work</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 1 day course. <button class="dropdownBtn courseBtn" type="button">▼</button></p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>Ofsted approved course that covers the roles and responsibilities of an emergency paediatric first-aider. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds and shock</li>
+                                <li>And more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img src="images/cpr.jpg" alt="CPR being performed">
+                </div>
+                <div class="courseInfo" id="BRT">
+                    <div class="courseTitle">
+                        <p>Basic Life Support First-Aid Training</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 2 or 3 hour course. <button class="dropdownBtn courseBtn" type="button">▼</button></p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>Ofsted approved course that covers the roles and responsibilities of an emergency paediatric first-aider. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds and shock</li>
+                                <li>And more</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topicHead">Fire Safety Courses:</div>
+        <div class="allCourses">
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img id="MLI" src="images/firesafety.jpg" alt="Fire extinguishers">
+                </div>
+                <div class="courseInfo" id="MLT">
+                    <div class="courseTitle">
+                        <p>Fire Safety Training</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 2 or 3 hour course</p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>Ofsted approved course that covers the roles and responsibilities of an emergency paediatric first-aider. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds and shock</li>
+                                <li>And more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img src="images/firewarden.jpeg" alt="Fire warden">
+                </div>
+                <div class="courseInfo">
+                    <div class="courseTitle">
+                        <p>Fire Warden Training</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> 3 hour course</p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>Ofsted approved course that covers the roles and responsibilities of an emergency paediatric first-aider. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds and shock</li>
+                                <li>And more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coursetainer">
+                <div class="courseImg">
+                    <img id="MRI" src="images/riskassessment.jpeg" alt="Man with clipboard">
+                </div>
+                <div class="courseInfo" id="MRT">
+                    <div class="courseTitle">
+                        <p>Fire Risk Assessment</p>
+                    </div>
+                    <div class="courseLength">
+                        <p><u>Length:</u> ~4 hours</p>
+                    </div>
+                    <div class="courseDesc">
+                        <p>Ofsted approved course that covers the roles and responsibilities of an emergency paediatric first-aider. Includes:
+                            <ul>
+                                <li>CPR and Defibrilator use</li>
+                                <li>Choking</li>
+                                <li>Bleeds and shock</li>
+                                <li>And more</li>
+                            </ul>
+                        Valid for 3 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
